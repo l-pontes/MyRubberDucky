@@ -1,0 +1,33 @@
+REM Rick Rolling Script
+REM Type -> Prank
+REM Target -> IOS
+
+REM -----------------------------------------
+
+REM Description:
+
+REM This payload opens safari and navigates to the infamous "Rick Roll" video on YouTube. This prank plays the video automatically, surprising the user with the well-known Rick Astley hit.
+
+REM -----------------------------------------
+
+
+DELAY 500
+GUI SPACE
+DELAY 500
+STRING safari
+DELAY 500
+ENTER
+DELAY 500
+GUI t
+DELAY 500
+GUI l
+DELAY 980
+STRING https://www
+DELAY 980
+STRING .youtube.c
+DELAY 980
+STRING om/shorts
+DELAY 980
+STRING /uBd-nAf5Fzs
+DELAY 980
+ENTER

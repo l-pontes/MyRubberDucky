@@ -1,0 +1,27 @@
+REM Rick Rolling Script
+REM Type -> Prank
+REM Target -> Windows
+
+REM -----------------------------------------
+
+REM Description:
+
+REM This payload opens 'run dialog' and navigates to the infamous "Rick Roll" video on YouTube. This prank plays the video automatically, surprising the user with the well-known Rick Astley hit.
+
+REM -----------------------------------------
+
+REM Script Explanation:
+
+REM "DELAY 500" = Adds a 500ms delay between commands to ensure the previous command has time to complete.
+REM "GUI r" = Presses the GUI (Windows Key) + 'r' keys to open Run dialog box.
+REM "ENTER" = Presses the ENTER key.
+REM "STRING 'https://www.youtube.com/watch?v=dQw4w9WgXcQ'" = Types the link and navigate to the Rick Roll video.
+
+REM -----------------------------------------
+
+DELAY 500 
+GUI r
+DELAY 500
+STRING https://www.youtube.com/watch?v=dQw4w9WgXcQ
+DELAY 1000
+ENTER

@@ -1,0 +1,38 @@
+REM Rick Rolling Script
+REM Type -> Prank
+REM Target -> Mac OS
+
+REM -----------------------------------------
+
+REM Description:
+
+REM This payload opens Safari and navigates to the infamous "Rick Roll" video on YouTube. This prank plays the video automatically, surprising the user with the well-known Rick Astley hit.
+
+REM -----------------------------------------
+
+REM Script Explanation:
+
+REM "DELAY 500" = Adds a 500ms delay between commands to ensure the previous command has time to complete.
+REM "GUI SPACE" = Presses the GUI (Command) + Space keys to open Spotlight Search.
+REM "STRING terminal" = Types "terminal" to open the Terminal app.
+REM "ENTER" = Presses the ENTER key.
+REM "STRING open -a Safari 'https://www.youtube.com/watch?v=dQw4w9WgXcQ'" = Types the command in Terminal to open Safari and navigate to the Rick Roll video.
+REM The extra "ENTER" ensures that the command is executed properly.
+
+REM -----------------------------------------
+
+
+DELAY 500 
+GUI SPACE
+DELAY 500
+STRING terminal
+DELAY 500
+ENTER
+DELAY 1000
+STRING open -a Safari 'https://www.youtube.com/watch?v=dQw4w9WgXcQ'
+DELAY 500
+ENTER
+DELAY 500
+ENTER 
+DELAY 500
+
